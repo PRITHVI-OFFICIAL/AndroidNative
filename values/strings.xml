@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Furniture App</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="home_subtitle_text">for your home</string>
+    <string name="home_title_text">Modern Furniture</string>
+    <string name="for_your_home">for your home</string>
+
+</resources>

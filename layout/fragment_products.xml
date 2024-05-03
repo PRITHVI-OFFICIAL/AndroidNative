@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundTint="#8BC34A"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="34dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="368dp"
+            android:layout_height="114dp"
+            android:background="#F8F7F7"
+            android:elevation="5dp"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="12dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="644dp">
+
+            <ImageView
+                android:id="@+id/popular_item_image_3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:elevation="20dp"
+
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/armchair_8" />
+
+            <TextView
+                android:id="@+id/popular_item_text_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Leather Sofa"
+                android:textFontWeight="900"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toRightOf="@id/popular_item_image_3"
+                app:layout_constraintTop_toTopOf="@id/popular_item_image_3" />
+
+
+            <ImageView
+                android:id="@+id/popular_item_start_3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/icon_rate"
+                android:translationX="-1dp"
+                app:layout_constraintLeft_toRightOf="@id/popular_item_image_3"
+                app:layout_constraintTop_toBottomOf="@id/popular_item_text_3"
+                app:tint="#f7ca07" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+
+                android:text="4.8"
+                android:textFontWeight="900"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@id/popular_item_start_3"
+                app:layout_constraintLeft_toRightOf="@id/popular_item_start_3"
+                app:layout_constraintTop_toTopOf="@id/popular_item_start_3" />
+
+            <TextView
+                android:id="@+id/popular_item_price_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+
+                android:layout_marginBottom="3dp"
+                android:text="₹6999"
+                android:textColor="#dbbf41"
+                android:textFontWeight="700"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="@id/popular_item_image_3"
+                app:layout_constraintLeft_toRightOf="@id/popular_item_image_3" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="368dp"
+            android:layout_height="114dp"
+            android:background="#F8F7F7"
+            android:clickable="true"
+            android:elevation="5dp"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="12dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="504dp">
+
+            <ImageView
+                android:id="@+id/popular_item_image_3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:elevation="20dp"
+
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/armchair_2" />
+
+            <TextView
+                android:id="@+id/popular_item_text_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Ice Cold Single Chair"
+                android:textFontWeight="900"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toRightOf="@id/popular_item_image_3"
+                app:layout_constraintTop_toTopOf="@id/popular_item_image_3" />
+
+
+            <ImageView
+                android:id="@+id/popular_item_start_3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/icon_rate"
+                android:translationX="-1dp"
+                app:layout_constraintLeft_toRightOf="@id/popular_item_image_3"
+                app:layout_constraintTop_toBottomOf="@id/popular_item_text_3"
+                app:tint="#f7ca07" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+
+                android:text="4.8"
+                android:textFontWeight="900"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@id/popular_item_start_3"
+                app:layout_constraintLeft_toRightOf="@id/popular_item_start_3"
+                app:layout_constraintTop_toTopOf="@id/popular_item_start_3" />
+
+            <TextView
+                android:id="@+id/popular_item_price_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+
+                android:layout_marginBottom="3dp"
+                android:text="₹6999"
+                android:textColor="#dbbf41"
+                android:textFontWeight="700"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="@id/popular_item_image_3"
+                app:layout_constraintLeft_toRightOf="@id/popular_item_image_3" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="368dp"
+            android:layout_height="114dp"
+            android:background="#F8F7F7"
+            android:elevation="5dp"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="12dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="374dp">
+
+            <ImageView
+                android:id="@+id/popular_item_image_3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:elevation="20dp"
+
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/armchair_7" />
+
+            <TextView
+                android:id="@+id/popular_item_text_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Comfort Single Sofa"
+                android:textFontWeight="900"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toRightOf="@id/popular_item_image_3"
+                app:layout_constraintTop_toTopOf="@id/popular_item_image_3" />
+
+
+            <ImageView
+                android:id="@+id/popular_item_start_3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/icon_rate"
+                android:translationX="-1dp"
+                app:layout_constraintLeft_toRightOf="@id/popular_item_image_3"
+                app:layout_constraintTop_toBottomOf="@id/popular_item_text_3"
+                app:tint="#f7ca07" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+
+                android:text="4.8"
+                android:textFontWeight="900"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@id/popular_item_start_3"
+                app:layout_constraintLeft_toRightOf="@id/popular_item_start_3"
+                app:layout_constraintTop_toTopOf="@id/popular_item_start_3" />
+
+            <TextView
+                android:id="@+id/popular_item_price_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+
+                android:layout_marginBottom="3dp"
+                android:text="₹6999"
+                android:textColor="#dbbf41"
+                android:textFontWeight="700"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="@id/popular_item_image_3"
+                app:layout_constraintLeft_toRightOf="@id/popular_item_image_3" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="368dp"
+            android:layout_height="114dp"
+            android:background="#D1D1D1"
+            android:backgroundTint="#F8F7F7"
+            android:elevation="5dp"
+            android:focusable="auto"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="12dp"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="232dp">
+
+            <ImageView
+                android:id="@+id/popular_item_image_3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:elevation="20dp"
+
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/armchair_6" />
+
+            <TextView
+                android:id="@+id/popular_item_text_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Home Chair"
+                android:textFontWeight="900"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toRightOf="@id/popular_item_image_3"
+                app:layout_constraintTop_toTopOf="@id/popular_item_image_3" />
+
+
+            <ImageView
+                android:id="@+id/popular_item_start_3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/icon_rate"
+                android:translationX="-1dp"
+                app:layout_constraintLeft_toRightOf="@id/popular_item_image_3"
+                app:layout_constraintTop_toBottomOf="@id/popular_item_text_3"
+                app:tint="#f7ca07" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+
+                android:text="4.8"
+                android:textFontWeight="900"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@id/popular_item_start_3"
+                app:layout_constraintLeft_toRightOf="@id/popular_item_start_3"
+                app:layout_constraintTop_toTopOf="@id/popular_item_start_3" />
+
+            <TextView
+                android:id="@+id/popular_item_price_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+
+                android:layout_marginBottom="3dp"
+                android:text="₹6999"
+                android:textColor="#dbbf41"
+                android:textFontWeight="700"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="@id/popular_item_image_3"
+                app:layout_constraintLeft_toRightOf="@id/popular_item_image_3" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="368dp"
+            android:layout_height="114dp"
+            android:background="#F8F7F7"
+            android:elevation="5dp"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="12dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="100dp">
+
+            <ImageView
+                android:id="@+id/popular_item_image_3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:elevation="20dp"
+
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/armchair_9" />
+
+
+            <TextView
+                android:id="@+id/popular_item_text_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Blue Royale"
+                android:textFontWeight="900"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toRightOf="@id/popular_item_image_3"
+                app:layout_constraintTop_toTopOf="@id/popular_item_image_3" />
+
+
+            <ImageView
+                android:id="@+id/popular_item_start_3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/icon_rate"
+                android:translationX="-1dp"
+                app:layout_constraintLeft_toRightOf="@id/popular_item_image_3"
+                app:layout_constraintTop_toBottomOf="@id/popular_item_text_3"
+                app:tint="#f7ca07" />
+
+            <stroke
+                android:width="2dp"
+                android:color="#4CAF50" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+
+                android:text="4.8"
+                android:textFontWeight="900"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@id/popular_item_start_3"
+                app:layout_constraintLeft_toRightOf="@id/popular_item_start_3"
+                app:layout_constraintTop_toTopOf="@id/popular_item_start_3" />
+
+            <TextView
+                android:id="@+id/popular_item_price_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+
+                android:layout_marginBottom="3dp"
+                android:text="₹3999"
+                android:textColor="#dbbf41"
+                android:textFontWeight="700"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="@id/popular_item_image_3"
+                app:layout_constraintLeft_toRightOf="@id/popular_item_image_3" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="?attr/appContainerColor"
+            app:cardCornerRadius="18dp"
+            app:cardElevation="15dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="95dp"
+            android:layout_height="26dp"
+            android:text="Products"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="49dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
